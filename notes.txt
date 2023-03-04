@@ -31,3 +31,11 @@ $ nest generate controller users
 $ nest generate service users
 удалил тестовые
 ==================================
+конфигурация
+$ npm i --save @nestjs/config
+add .env file
+add .development.env, .production.env
+$ npm i cross-env
+to package add 'cross-env NODE_ENV=production or dev'
+===================================
+добавление модели username
