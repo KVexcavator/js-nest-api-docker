@@ -1,0 +1,16 @@
+nest это не next
+https://docs.nestjs.com/
+он для бекенда js с node, express или fastify
+=================================
+$ npm i -g @nestjs/cli
+cd cd
+$ nest new js-nest-api
+удаляем не нужное и чистим папку src
+в src добавляем файл main.ts, app.module.ts
+$ npm run start:dev
+=================================
+add app.controller.ts
+localhost:5000/api/users
+=================================
+providers - переиспользуемые сервисы
+добавляем app.service.ts
