@@ -26,3 +26,8 @@ postgres in docker my-postgres , need run
 удалил app.service.ts, app.controller.ts
 добавил папку users
 ==================================
+$ nest generate module users
+$ nest generate controller users
+$ nest generate service users
+удалил тестовые
+==================================
