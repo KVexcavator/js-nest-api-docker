@@ -39,3 +39,5 @@ $ npm i cross-env
 to package add 'cross-env NODE_ENV=production or dev'
 ===================================
 добавление модели username
+add users.models.ts
+===================================
