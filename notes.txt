@@ -41,3 +41,14 @@ to package add 'cross-env NODE_ENV=production or dev'
 добавление модели username
 add users.models.ts
 ===================================
+добавил post, get запросы
+post в postman (c тeлом)
+localhost:5000/user
+raw
+{
+  "email": "some@mail.local"
+  "password": "Something"
+}
+get
+====================================
+26:40 Докуьентирование API
