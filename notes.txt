@@ -14,3 +14,15 @@ localhost:5000/api/users
 =================================
 providers - переиспользуемые сервисы
 добавляем app.service.ts
+=================================
+db Sequelize
+$ npm install --save @nestjs/sequelize sequelize sequelize-typescript
+$ npm install --save pg pg-hstore
+$ npm install --save-dev @types/sequelize
+-----------------------------------
+postgres in docker my-postgres , need run
+создал базу через boolkeeper js-nest-api, правильно подключил порт и работает
+-----------------------------------
+удалил app.service.ts, app.controller.ts
+добавил папку users
+==================================
