@@ -60,3 +60,8 @@ add @AppProperty to users.models.ts
 add @AppProperty to dto/create-user.dto.ts
 =====================================
 32:31 авторизация и роли
+$ nest generate module roles
+$ nest generate controller roles
+$ nest generate service roles
+add roles/models.ts
+update app.module.ts
