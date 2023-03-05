@@ -41,9 +41,9 @@ to package add 'cross-env NODE_ENV=production or dev'
 добавление модели username
 add users.models.ts
 ===================================
+http://localhost:5000/api/users
 добавил post, get запросы
 post в postman (c тeлом)
-localhost:5000/user
 raw
 {
   "email": "some@mail.local"
@@ -51,4 +51,12 @@ raw
 }
 get
 ====================================
-26:40 Докуьентирование API
+26:40 Документирование API
+$ npm i @nestjs/swagger swagger-ui-express
+add config to main.js
+http://localhost:5000/api/docs/
+add @ApiOperation to users.controller.ts
+add @AppProperty to users.models.ts
+add @AppProperty to dto/create-user.dto.ts
+=====================================
+32:31 авторизация и роли
